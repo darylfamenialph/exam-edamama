@@ -2,8 +2,13 @@ import puppeteer, { Page } from "puppeteer";
 
 export const REGEX_TO_FILTER_NEXT_LINE = /\r?\n|\r/g;
 
-export const PRODUCT_PRICE_HTML_ID = "#price_inside_buybox";
-export const PRODUCT_NAME_HTML_ID = "#productTitle";
+export const PRODUCT_PRICE_HTML_SELECTOR = "#price_inside_buybox";
+export const PRODUCT_NAME_HTML_SELECTOR = "#productTitle";
+export const PRODUCT_DESCRIPTION_HTML_SELECTOR = "#feature-bullets";
+export const PRODUCT_SHIPPING_ORIGIN_AND_SELLER_HTML_SELECTOR =
+  "#tabular-buybox table";
+export const PRODUCT_BRAND_HTML_SELECTOR =
+  "#productOverview_feature_div div table";
 
 export async function configureBrowser(url: string): Promise<Page> {
   try {
