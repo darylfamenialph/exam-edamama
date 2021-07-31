@@ -7,6 +7,8 @@ Web Scraping Exam for Edamama
 This uses `yarn`. 
 To install `yarn`, use `npm install -g yarn` in your terminal.
 
+Install Dependencies using `yarn install`.
+
 # scripts
 
 `yarn dev` - used to start development mode. It uses nodemon to constantly watch changes during development.
