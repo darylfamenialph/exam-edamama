@@ -17,3 +17,6 @@ dist/
 # Ignore all local history of files
 .history
 .ionide
+
+#Error Logs
+yarn-error.log
